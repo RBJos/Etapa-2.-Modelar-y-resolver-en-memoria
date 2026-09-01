@@ -14,7 +14,7 @@
 		private DateOnly _fecha;
 		public DateOnly fecha {	get { return _fecha; } set { _fecha = value; } }
 
-		private string _estado;
+		private string _estado = estadoSolicitud.borrador.ToString();
 		public string estado { get { return _estado; } set { _estado = value; } }
 
 

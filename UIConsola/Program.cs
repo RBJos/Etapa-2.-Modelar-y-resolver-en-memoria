@@ -18,7 +18,6 @@ public class Program
             folio = 1,
             solicitante = "Juan Pérez",
             fecha = DateOnly.FromDateTime(DateTime.Now),
-            estado = SolicitudCompra.estadoSolicitud.borrador.ToString(),
             observaciones = "Solicitud de compra de productos"
         };
 
